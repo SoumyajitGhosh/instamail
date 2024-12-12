@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",             // Set the ECMAScript version
+    "moduleResolution": "node", 
+    "module": "ES2022",          // Use CommonJS module system
+    "strict": true,                // Enable strict type checking
+    "esModuleInterop": true,       // Allow default imports for CommonJS modules
+    "outDir": "./dist",             // Output directory for compiled files
+    "rootDir": "./src",
+  },
+  "include": ["./src/**/*.ts"],    // Specify files to include in compilation
+  "exclude": ["node_modules"]      // Exclude node_modules
+}
